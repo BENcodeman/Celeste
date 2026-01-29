@@ -1,11 +1,11 @@
-<nav class="bg-white shadow-md">
-  <div class="max-w-7xl mx-auto px-4 py-4">
+<nav class="bg-gray-500 shadow-md">
+  <div class="max-w-7xl mx-auto px-4 py-4 ">
 
     <!--Top row-->
     <div class="grid grid-cols-3 items-center">
       <!-- Left (empty for spacing) -->
       <div>
-        <img src="{{ asset('images/logo.png') }}" alt="Celeste Logo" class="h-15 w-auto" />
+        <img src="{{ asset('images/logo.png') }}" alt="Celeste Logo" class="h-14 w-auto scale-125" />
       </div>
 
       <!--Logo + Menu -->
@@ -20,11 +20,17 @@
 
       <!--Login -->
       <div class="flex justify-end">
-        <button class="bg-blue-500 text-white rounded-lg px-4 py-2">
-          Login
-        </button>
-      </div>
-    </div>
+          <button
+            class="w-12 h-12 rounded-full
+            bg-blue-500 text-white
+            flex items-center justify-center
+            hover:bg-blue-600 transition">
+
+            
+          <x-phosphor-user-circle class="w-6 h-6" />
+            
+          </button>
+        </div>
 
   </div>
 </nav>
