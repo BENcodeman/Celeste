@@ -13,7 +13,7 @@
 <body>
     <div class="min-h-screen bg-gray-100">
         <!-- Navigation -->
-        <x-layouts.navbar />
+       
 
         <!-- Page Content -->
         <main>
